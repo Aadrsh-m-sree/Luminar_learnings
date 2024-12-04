@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reg Form</title>
+</head>
+<body>
+    <form action="" style="margin: auto;width: fit-content; background-color: aqua; text-align: center;">
+        <h1>Student Registration Form</h1>
+        <p>
+            <label for="fname">First name:</label><br>
+            <input type="text"><br>
+            <label for="mname">Middle name:</label><br>
+            <input type="text"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text"><br>
+        </p>
+        <p>
+            <label for="course">Course:</label>
+            <select name="course" id="course">
+                <option value="course" selected>course</option>
+                <option value="Python">Python</option>
+    
+            </select>
+        </p>
+        <p>
+            <label for="gender">Gender</label><br>
+            <label for="male">Male</label>
+            <input type="radio" name="g" value="Male">
+            <label for="female">Female</label>
+            <input type="radio" name="g" value="Female">
+            <label for="other">Other</label>
+            <input type="radio" name="g" value="Other">
+        </p>
+        <p>
+            <label for="phone">Phone:</label><br>
+            <input type="text" value="+91" readonly><br>
+
+        </p>
+        <p>
+            <input type="tel" placeholder="phone number">
+        </p>
+        <p>
+            <label for="currentaddress">Current address</label><br>
+            <textarea name="currentaddress" id="" placeholder="current address" rows="10"></textarea>
+        </p>
+        <p>
+            <label for="email">Email</label><br>
+            <input type="email" name="" id="">
+        </p>
+        <p>
+            <label for="password">Password</label><br>
+            <input type="password" name="" id="">
+        </p>
+        <p>
+            <label for="password">Re-type Password</label><br>
+            <input type="password" name="" id="">
+        </p>
+        <p>
+            <button type="submit" style="background-color: greenyellow;">Register</button>
+        </p>
+    </form>
+</body>
+</html>

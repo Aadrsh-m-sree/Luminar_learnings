@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Form</title>
+</head>
+<body>
+    <form action="/submit-payment" method="POST">
+        <h2>Billing Address</h2>
+
+            <label>Full Name:</label><br>
+            <input type="text" placeholder="Enter Your Full Name" required><br><br>
+    
+            <label>Email:</label><br>
+            <input type="email" placeholder="Enter Email Address" required><br><br>
+    
+            <label>Address:</label><br>
+            <input type="text" placeholder="Enter Address" required><br><br>
+    
+            <label>City:</label><br>
+            <input type="text" placeholder="Enter City" required><br><br>
+    
+            <label >State:</label><br>
+            <input type="text" placeholder="Enter State" required><br><br>
+    
+            <label>Zip Code:</label><br>
+            <input type="text" placeholder="123 456" required><br><br>
+
+            <h2>Payment</h2>
+    
+            <p>Card Accepted:</p>
+        
+                PayPal | MasterCard | American Express | Visa
+    
+    
+            <label>Name On Card:</label><br>
+            <input type="text" placeholder="Enter Card Name" required><br><br>
+    
+            <label>Credit Card Number:</label><br>
+            <input type="text" placeholder="1111-2222-3333-4444" required><br><br>
+    
+            <label>Exp Month:</label><br>
+            <select required>
+                <option>Choose Month</option>
+                <option>January</option>
+                <option>February</option>
+                <!-- Add more months as options -->
+            </select><br><br>
+    
+            <label>Exp Year:</label><br>
+            <select required>
+                <option>Choose Year</option>
+                <option>2024</option>
+                <option>2025</option>
+                <!-- Add more years as options -->
+            </select><br><br>
+    
+            <label>CVV:</label><br>
+            <input type="text" placeholder="1234" required><br><br>
+    
+            <button type="submit">Proceed To Checkout</button>
+       </p>
+    </form>
+</body>
+</html>

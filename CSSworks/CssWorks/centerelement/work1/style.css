@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(123, 0, 255);
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

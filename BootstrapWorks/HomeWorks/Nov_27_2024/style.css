@@ -1,0 +1,10 @@
+.two-color{
+    height: 100%;
+    background: linear-gradient(
+        to bottom,
+        white 0%,
+        white 50%,
+        aqua 50%,
+        aqua 100%
+    );
+}

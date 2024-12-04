@@ -1,0 +1,38 @@
+/* h1{
+    color: red;
+    text-align: center;
+} */
+
+
+
+#second{
+ color: green;
+ text-align: center;
+}
+
+#first{
+    color: darkblue;
+    text-align: center;
+}
+
+/* h2{
+    color: darkcyan;
+    background-color: yellow;
+    text-align: center;
+    text-decoration: solid;
+    text-overflow: clip;
+    text-emphasis-color: blue;
+} */
+
+
+.text-danger{
+    color:red;
+}
+
+.text-success{
+    color: green;
+}
+
+.text-dec-underline{
+    text-decoration: underline;
+}

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 3</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<style>
+
+    .img-blur{
+        height: 450px;
+        object-fit: cover;
+        filter: blur(5px);
+    }
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg position-absolute fixed-top">
+        <div class="container-fluid navbar-inner">
+            <!-- <a class="navbar-brand text-white fs-5 fw-bold ms-5" href="#">LOGO</a> -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto me-auto mb-2 pe-5 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white bg-warning fs-5 me-3" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 me-3" href="#">About US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 me-3" href="#">Blog</a>
+                    </li>  
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 me-3" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 me-3" href="#">Service</a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 me-3" href="#">Gallery</a>
+                    </li>  
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 me-3" href="#">Contact Us</a>
+                    </li>   
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- carousel start-->
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2000">
+                <!-- carousel image -->
+                <img src="./images/fruitsmain1.jpg" class="d-block w-100 img-blur" alt="...">
+                <!-- carousel body -->
+                <div class="carousel-caption d-none d-md-block d-flex justify-content-center align-items-center">
+                    <div class=" w-100">
+                        <div class="row">
+                            <div class="col-6 text-start">
+                                <p class="text-dark fs-5 mt-4">Welcome to FreshMeal</p>
+                                <span class="text-dark fs-2 fw-bold">The World Best</span><span class="text-warning fs-2 fw-bold"> Shopping</span><br>
+                                <span class="text-dark fs-2 fw-bold">Website</span>
+                                <p class="text-dark fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit tempore excepturi, doloremque suscipit blanditiis odio expedita labore optio quos architecto nemo eum qui obcaecati mollitia numquam unde fugit alias voluptate?</p>
+                                <button type="button" class="btn btn-warning">Read More</button>
+                                <button type="button" class="btn btn-dark">Shop Now</button>
+                            </div>
+                            <div class="col-6 text-start">
+                                <div><img src="./images/backgroundimg1-removebg-preview.png" alt="" class=" w-100"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- carousel body end -->
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="./images/carosel2.jpg" class="d-block w-100 img-blur" alt="...">
+                <!-- carousel body -->
+                <div class="carousel-caption d-none d-md-block d-flex justify-content-center align-items-center">
+                    <div class=" w-100 ms-auto me-auto">
+                        <div class="row">
+                            <div class="col-6 text-start">
+                                <p class="text-dark fs-5 mt-4">Welcome to FreshMeal</p>
+                                <span class="text-dark fs-2 fw-bold">The World Best</span><span class="text-warning fs-2 fw-bold"> Shopping</span><br>
+                                <span class="text-dark fs-2 fw-bold">Website</span>
+                                <p class="text-dark fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit tempore excepturi, doloremque suscipit blanditiis odio expedita labore optio quos architecto nemo eum qui obcaecati mollitia numquam unde fugit alias voluptate?</p>
+                                <button type="button" class="btn btn-warning">Read More</button>
+                                <button type="button" class="btn btn-dark">Shop Now</button>
+                            </div>
+                            <div class="col-6 text-start">
+                                <div><img src="./images/backgroundimg1-removebg-preview.png" alt="" class=" w-100"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- carousel body end -->
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="./images/carosel3.jpg" class="d-block w-100 img-blur" alt="...">
+                <div class="carousel-caption d-none d-md-block d-flex justify-content-center align-items-center">
+                    <div class=" w-100 ms-auto me-auto">
+                        <div class="row">
+                            <div class="col-6 text-start">
+                                <p class="text-dark fs-5 mt-4">Welcome to FreshMeal</p>
+                                <span class="text-dark fs-2 fw-bold">The World Best</span><span class="text-warning fs-2 fw-bold"> Shopping</span><br>
+                                <span class="text-dark fs-2 fw-bold">Website</span>
+                                <p class="text-dark fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit tempore excepturi, doloremque suscipit blanditiis odio expedita labore optio quos architecto nemo eum qui obcaecati mollitia numquam unde fugit alias voluptate?</p>
+                                <button type="button" class="btn btn-warning">Read More</button>
+                                <button type="button" class="btn btn-dark">Shop Now</button>
+                            </div>
+                            <div class="col-6 text-start">
+                                <div><img src="./images/backgroundimg1-removebg-preview.png" alt="" class=" w-100"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- carousel body end -->
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- carousel end-->
+
+    <div class="container ms-auto me-auto">
+        <div class="text-center mt-3"><span class="fs-3 fw-bold">Top Products</span></div>
+        <div class="row mt-4 p-5" data-aos="flip-right"
+        data-aos-duration="3000">
+            <div class="col-4 ">
+                <div class="card shadow p-4" style="width: 100%;">
+                    <div class="p-3 border-bottom bg-white mt-2">
+                        <img src="./images/carosel2.jpg" class="card-img-top rounded-circle w-100" alt="...">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Summer Salad</h5>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <p class="mt-2">$1.25</p>
+                        <div class="text-center mt-2">
+                            <button type="button" class="btn btn-outline-warning text-dark">
+                                <i class="fa-solid fa-cart-shopping" style="color: #FFD43B;"></i>
+                                Add to cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 ms-auto me-auto">
+                <div class="card shadow p-4" style="width: 100%;">
+                    <div class="p-3 border-bottom bg-white mt-2 mx-auto">
+                        <img src="./images/carosel3.jpg" class="card-img-top rounded-circle w-100 h-50" alt="...">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Russian Salad</h5>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <p class="mt-2">$1.25</p>
+                        <div class="text-center mt-2">
+                            <button type="button" class="btn btn-outline-warning text-dark">
+                                <i class="fa-solid fa-cart-shopping" style="color: #FFD43B;"></i>
+                                Add to cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 ms-auto me-auto">
+                <div class="card shadow p-4" style="width: 100%;">
+                    <div class="p-3 border-bottom bg-white mt-2">
+                        <img src="./images/grapes.jpg" class="card-img-top rounded-circle w-100" alt="...">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Greek Salad</h5>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <p class="mt-2">$1.25</p>
+                        <div class="text-center mt-2">
+                            <button type="button" class="btn btn-outline-warning text-dark">
+                                <i class="fa-solid fa-cart-shopping" style="color: #FFD43B;"></i>
+                                Add to cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+      AOS.init();
+    </script>
+</html>

@@ -1,0 +1,12 @@
+print("message) # to print a message to the console
+print("message", end="\t") # tab
+print("message", end="\n") # next line(default)
+type(object) # to return the datatype of an object
+input("message) # to read value from the console , returns a string value
+round(object, precision)
+lower()
+len()
+range(start,stop,step)
+min() # returns smallest number
+max() # returns highest number
+enumrate() # returns index and element

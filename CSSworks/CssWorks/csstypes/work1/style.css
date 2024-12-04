@@ -1,0 +1,15 @@
+.text-success{
+    color: green;
+}
+
+.text-white{
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+}

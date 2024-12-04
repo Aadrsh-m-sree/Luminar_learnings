@@ -1,0 +1,24 @@
+.container{
+        width: 80%;
+        background-color: rgb(157, 123, 189);
+        padding: 10px ;
+}
+.box{
+    width: 20%;
+    height: 100px;
+    background-color: blueviolet;
+    color: #e1e1e1;
+    display: flex; 
+    font-size: 1em;
+}
+
+.row{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 20px;
+}
+
+.space{
+        margin-top: 20px;
+}
